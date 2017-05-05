@@ -1,0 +1,57 @@
+body,html {
+	margin:0;
+}
+
+ul{
+	
+	display: inline-block;
+	list-style: none;
+	background-color: pink;
+	width: 100%;
+	margin: 0px;
+
+}
+
+li{
+	display: inline-block;
+	padding: 20px;
+}
+
+li a{
+	color: #565656;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+li:hover  a{
+	color: white;
+}
+
+
+#pic1 {
+	position:fixed;
+	top: 270px;
+	left: 0px;
+	height: 270px;
+	border:3px solid black;
+	
+}
+	
+#pic2 {
+	position:fixed;
+	top: 270px;
+	left: 1090px;
+	right: 35px;
+	height:300px;
+	border:3px solid black;
+}
+
+#pic3 {
+	position: fixed;
+	top: 270px;
+	left: 500px;
+	height:400px;
+	border: 3px solid black;
